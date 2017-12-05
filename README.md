@@ -30,7 +30,7 @@ pip install expackage
 from inside the `xmeeting-reproducible-research` repository.
 
 
-## Resources
+## Additional resources
 
 - David Beazley's "Modules and Packages:
 Live and Let Die!" talk @ PyCon 2015 [[youtube](https://www.youtube.com/watch?v=0oTh1CXRaQ0)] [[slides](http://www.dabeaz.com/modulepackage/ModulePackage.pdf)]

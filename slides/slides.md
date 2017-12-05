@@ -14,7 +14,7 @@ themeoptions: numbering=counter, progressbar=foot
 
 - Code can easily run by someone else.
 
-- Code can run on different machines.
+- Environment needed to run code can be created easily.
 
 ## Topics
 
@@ -158,6 +158,21 @@ themeoptions: numbering=counter, progressbar=foot
 
 - Also works with version control systems.
     - `pip install git+https://github.com/numpy/numpy.git#egg=numpy`
+
+## Requirements files
+
+- Requirements files are files containing a list of items to be installed using `pip install`.
+
+- `pip install -r requirements.txt`
+
+- Effectively, each line in a requirements file gets passed to `pip install`.
+
+```
+    # requirements.txt
+    numpy==1.11.0
+    matplotlib
+    scikit-learn>=0.18.2
+```
 
 # Making packages `pip`-installable
 
@@ -398,7 +413,7 @@ def test_my_add_first_input_raises():
 
 - `conda` &mdash; open source package management system and environment management system.
 
-## Resources
+## Additional resources
 
 - David Beazley's "Modules and Packages:
 Live and Let Die!" talk @ PyCon 2015 [[youtube](https://www.youtube.com/watch?v=0oTh1CXRaQ0)] [[slides](http://www.dabeaz.com/modulepackage/ModulePackage.pdf)]
